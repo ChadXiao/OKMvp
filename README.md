@@ -17,7 +17,7 @@
 >  在模块的build.gradle文件中添加如下依赖:
 
 	dependencies {
-	        implementation 'com.github.ChadXiao:OKMvp:V1.0.1'
+	        implementation 'com.github.ChadXiao:OkMvp:V1.0.0'
 	}
 
 
@@ -36,8 +36,8 @@
 
     <dependency>
 	    <groupId>com.github.ChadXiao</groupId>
-	    <artifactId>OKMvp</artifactId>
-	    <version>V1.0.1</version>
+	    <artifactId>OkMvp</artifactId>
+	    <version>V1.0.0</version>
 	</dependency>
 	
 ## Sbt ##
@@ -49,7 +49,7 @@
 
 > 添加依赖：
 
-    libraryDependencies += "com.github.ChadXiao" % "OKMvp" % "V1.0.1"
+    libraryDependencies += "com.github.ChadXiao" % "OkMvp" % "V1.0.0"
     
 ## Leiningen ##
 
@@ -60,4 +60,4 @@
 
 > 添加依赖
 
-    :dependencies [[com.github.ChadXiao/OKMvp "V1.0.1"]]
+    :dependencies [[com.github.ChadXiao/OkMvp "V1.0.0"]]
