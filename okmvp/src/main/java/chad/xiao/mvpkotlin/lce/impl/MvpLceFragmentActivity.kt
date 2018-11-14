@@ -1,6 +1,5 @@
 package chad.xiao.mvpkotlin.lce.impl
 
-import android.view.View
 import chad.xiao.mvpkotlin.MvpFragmentActivity
 import chad.xiao.mvpkotlin.MvpPresenter
 import chad.xiao.mvpkotlin.MvpView
@@ -26,7 +25,7 @@ abstract class MvpLceFragmentActivity<D, V : MvpView, P : MvpPresenter<V>> : Mvp
         mvpLceView!!.initView(findViewById(R.id.rootView))
     }
 
-    fun onErrorClick(v : View){
+    fun onErrorClick(){
         loadData(false)
     }
 

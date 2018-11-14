@@ -1,6 +1,5 @@
 package chad.xiao.mvpkotlin.lce.impl
 
-import android.view.View
 import chad.xiao.mvpkotlin.MvpActivity
 import chad.xiao.mvpkotlin.MvpPresenter
 import chad.xiao.mvpkotlin.MvpView
@@ -27,7 +26,7 @@ abstract class MvpLceActivity<D, V : MvpView, P : MvpPresenter<V>> : MvpActivity
         mvpLceView!!.initView(findViewById(R.id.rootView))
     }
 
-    fun onErrorClick(v : View){
+    fun onErrorClick(){
         loadData(false)
     }
 
