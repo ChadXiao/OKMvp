@@ -76,7 +76,7 @@ open class MvpLceViewImpl<D> : MvpLceView<D>{
     }
 
     override fun showError(isPullToRefresh: Boolean) {
-        if (isPullToRefresh){
+        if (!isPullToRefresh){
             animator!!.showErrorView(loadingView!!, contentView!!, errorView!!)
         }
     }
